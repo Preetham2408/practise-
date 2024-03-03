@@ -1,0 +1,48 @@
+.sidebar-div{
+  
+  align-items: center;
+position: fixed;
+ left: 0;
+ bottom: 0;
+ top: 55px;
+ background-color: white;
+width: 72px;
+z-index: 200;
+padding-top: 5px;
+}
+.home,
+.explore,
+.subscriptions,
+.originals,
+.youtube-music,
+.library{
+  width: 24px;
+  margin-bottom: 4px;
+}
+
+.home-div,
+.explore-div,
+.subscriptions-div,
+.originals-div,
+.youtube-music-div,
+.library-div{
+  display: flex;
+ height: 76px;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.home-div:hover,
+.explore-div:hover,
+.subscriptions-div:hover,
+.originals-div:hover,
+.youtube-music-div:hover,
+.library-div:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+.texts{
+  font-family: Roboto,arial;
+  font-size: 10px;
+
+}
